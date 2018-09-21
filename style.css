@@ -1,0 +1,32 @@
+
+.MainContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.MainContainer div {
+    display :block;
+    margin : 1vh 2vw 1vh 2vw;
+    text-align: center;
+}
+#TableContainer table {
+    border-collapse: collapse;
+    width: 100%;
+}
+#TableContainer th,td{
+    border-bottom : 1px solid #aaa;
+    padding : 0.5vh;
+}
+#TableContainer tr:hover{
+    background-color : #aaaaaa;
+}
+
+#PlaceOrderContainer {
+    text-align: center;
+    color: #105936;
+}
+#PlaceOrderContainer table {
+    margin : 0 auto 0 auto;
+    border-collapse: collapse;
+}
